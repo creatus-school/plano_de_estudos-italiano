@@ -1,12 +1,12 @@
 // 1. CONFIGURAÇÃO DO FIREBASE
 // COLE SUAS CHAVES DO FIREBASE AQUI
 const firebaseConfig = {
-    apiKey: "AIzaSyAx0qFpIguMrB8moA1fvHeZ7jPxdefm_9Y",
-    authDomain: "plano-de-estudos---ingles.firebaseapp.com",
-    projectId: "plano-de-estudos---ingles",
-    storageBucket: "plano-de-estudos---ingles.firebasestorage.app",
-    messagingSenderId: "355198764905",
-    appId: "1:355198764905:web:a8f93eee4c8fd1cf9a9ff8"
+    apiKey: "AIzaSyD6R19jHD5zuxBiCOwW4hvYMj-cquy01dY",
+    authDomain: "plano-de-estudos---italiano.firebaseapp.com",
+    projectId: "plano-de-estudos---italiano",
+    storageBucket: "plano-de-estudos---italiano.firebasestorage.app",
+    messagingSenderId: "900862950418",
+    appId: "1:900862950418:web:4808345d3e35a584edeccb"
 };
 
 firebase.initializeApp(firebaseConfig);
@@ -23,7 +23,7 @@ const frasesMotivacionais = [
     "A persistência é o caminho do êxito.", // Semana 3
     "Não espere por uma crise para descobrir o que é importante na sua vida.", // Semana 4
     "O sucesso é a soma de pequenos esforços repetidos dia após dia.", // Semana 5
-    "A falta de ânimo faz parte do processo de aprendizado, por isso é importante você sempre relembrar <b>o porquê</b> de estar estudando inglês. Se achar necessário, releia suas respostas às perguntas de reflexão no início do seu plano de estudos.", // Semana 6
+    "A falta de ânimo faz parte do processo de aprendizado, por isso é importante você sempre relembrar <b>o porquê</b> de estar estudando italiano. Se achar necessário, releia suas respostas às perguntas de reflexão no início do seu plano de estudos.", // Semana 6
     "Cada dia é uma nova oportunidade para aprender e crescer.", // Semana 7
     "Aprender um novo idioma abre portas para um novo mundo.", // Semana 8
     "Seja a mudança que você deseja ver no mundo dos idiomas.", // Semana 9
@@ -1243,7 +1243,7 @@ async function baixarRelatorioPDF() {
             // A margem aqui é para o html2pdf.js, mas as margens do jsPDF são mais específicas
             // margin: 30, // Esta linha pode ser removida se você usar as margens do jsPDF abaixo
 
-            filename:     'Meu_Progresso_Ingles.pdf',
+            filename:     'Meu_Progresso_Italiano.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
             html2canvas:  {
                 scale: 2, // Mantém a escala de 2 para boa qualidade da imagem
